@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <opencv2/highgui/cap_ios.h>
+#import <opencv2/core/mat.hpp>
 
 @interface ViewController : UIViewController <CvVideoCameraDelegate>{
     IBOutlet UIImageView *imageView;
     CvVideoCamera *camera;
+    BOOL isActive;
 }
+
+- (IBAction)startOrStop:(id)sender;
 
 
 @end
