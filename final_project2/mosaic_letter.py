@@ -18,14 +18,14 @@ import math
 ## File management
 SRC_FOLDER = "source/images"
 
-ORG_IMG = cv2.imread("source/input.jpg")
+ORG_IMG = cv2.imread("source/input4.jpg")
 IMG_FILES = os.listdir(SRC_FOLDER)
 
 NUMBER_OF_IMAGE = 50
 
 ## IMAGE SIZE to be made
-ORIGINAL_WIDTH = 1200
-ORIGINAL_HEIGHT = 900
+ORIGINAL_WIDTH = 600
+ORIGINAL_HEIGHT = 450
 
 ## ORIGINAL INPUT IMAGE SIZE
 WIDTH = 8
